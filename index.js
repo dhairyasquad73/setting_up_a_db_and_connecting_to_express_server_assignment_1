@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 const PORT =  3010;
 
-const URL = process.env.MONGO_URI || "mongodb+srv://dhairyajangirs73:dhairya@cluster0.y4vnu.mongodb.net/";
+const URL = process.env.MONGO_URI || "mongodb+srv://dhairyajangirs73:barbieNaman@cluster0.vs62c.mongodb.net/";
 
 
 app.use(express.static(resolve(__dirname, 'static')));
